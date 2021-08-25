@@ -1,8 +1,12 @@
 {
-  "name": "my-app-for-react-package-test",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@ae-udarag/my-app-for-react-package-test",
+  "version": "1.0.0",
+  "description": "Common UI Components For React Project",
+  "author": "Udara Galagedarage",
+  "license": "MIT",
+  "repository": "git@github.com:ae-udarag/my-app-for-react-package-test.git",
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -22,6 +26,9 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "browserslist": {
     "production": [
