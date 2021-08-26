@@ -1,26 +1,25 @@
 {
   "name": "@ae-udarag/my-app-for-react-package-test",
-  "version": "1.0.4",
+  "version": "1.0.10",
   "description": "Common UI Components For React Project",
   "author": "Udara Galagedarage",
   "license": "MIT",
   "repository": "git@github.com:ae-udarag/my-app-for-react-package-test.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
-  "dependencies": {
-    "@material-ui/core": "^4.12.3",
+  "dependencies": {},
+  "devDependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1",
-    "microbundle-crl": "0.13.10"
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "microbundle-crl --no-compress --format modern,cjs",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
